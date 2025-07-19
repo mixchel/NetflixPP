@@ -1,0 +1,8 @@
+up202200496 - Robert Gleison dos Reis Pereira
+
+
+Coloquei algumas doc strings no código, para ajudar na compreensão do mesmo.
+
+Sou trabalhador estudante e resolvi fazer o trabalho sozinho pois não conheço ninguém da disciplina
+que já não esteja em duplas.
+
