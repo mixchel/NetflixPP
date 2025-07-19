@@ -1,0 +1,3 @@
+/nick robert
+/join room1
+Bom dia!
