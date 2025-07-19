@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>{{empreendedor.nome}}</h1>
+
+<p><b>ID do Empreendedor: </b>{{ empreendedor.empreendedor_id}}</p>
+<p><b>Nome: </b>{{ empreendedor.nome }}</p>
+<p>
+  <b>Projeto: </b>
+  <a href="/projetos/{{projeto.projeto_id }}">{{ projeto.nome }}</a>
+</p>
+{% endblock %}
