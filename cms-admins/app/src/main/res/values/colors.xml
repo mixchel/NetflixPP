@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#FF0000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary_blue">#246fbf </color>
+    <color name="click_color"> #dfe4eb</color>
+    <color name="actionbar_blue">#246FBF</color>
+    <color name="dark_background">#121212</color>
+    <color name="dark_surface">#1E1E1E</color>
+    <color name="light_gray">#CCCCCC</color>
+    <color name="ripple_dark">#454545</color>
+    <color name="splash_background">#f7fbff</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="black_transparent">#D6000000</color>
+    <color name="black_transparent2">#A3000000</color>
+    <color name="black_transparent3">#7F000000</color>
+    <color name="grey">#1F1E1E</color>
+    <color name="white_sophia">#FFFFFFFF</color>
+    <color name="almost_white">#FFCCCCCC</color>
+    <color name="blue">#345880</color>
+    <color name="red_sophia">#F6101A</color>
+    <color name="dark_red">#520410</color>
+</resources>
