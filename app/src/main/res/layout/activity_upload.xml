@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/upload_file_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    android:overScrollMode="never"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:clipToPadding="false"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bg_edit_text">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_movie_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/movie_title_hint"
+                android:inputType="textMultiLine"
+                android:padding="16dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bg_edit_text">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_movie_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/movie_description_hint"
+                android:inputType="textMultiLine"
+                android:padding="16dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bg_edit_text">
+
+            <AutoCompleteTextView
+                android:id="@+id/edit_movie_genre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/movie_genre_hint"
+                android:textColorHint="@color/black"
+                android:inputType="none"
+                android:textColor="@android:color/black"
+                android:padding="16dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bg_edit_text">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_movie_year"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/movie_year_hint"
+                android:inputType="number"
+                android:padding="16dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bg_edit_text">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_movie_publisher"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/movie_publisher_hint"
+                android:inputType="textMultiLine"
+                android:padding="16dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/bg_edit_text">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_movie_duration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/movie_duration_hint"
+                android:inputType="time"
+                android:padding="16dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/add_files_card"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/text_video_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/select_video"
+                    android:textSize="16sp"
+                    android:ellipsize="end"
+                    android:maxLines="1" />
+
+                <ImageView
+                    android:id="@+id/image_video_upload"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:contentDescription="@string/upload_video_desc"
+                    android:padding="4dp"
+                    android:src="@drawable/upload_add_media" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_thumbnail_upload"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="32dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/text_thumbnail_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/select_thumbnail"
+                    android:textSize="16sp"
+                    android:ellipsize="end"
+                    android:maxLines="1" />
+
+                <ImageView
+                    android:id="@+id/image_thumbnail_upload"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:contentDescription="@string/upload_thumbnail_desc"
+                    android:padding="4dp"
+                    android:src="@drawable/upload_add_media" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/button_submit"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="50dp"
+            android:backgroundTint="@color/primary_blue"
+            android:text="@string/submit"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>
