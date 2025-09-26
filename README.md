@@ -63,5 +63,9 @@ Netflix Plus is a comprehensive streaming solution split across three directorie
   * HLS for adaptive streaming
   * 
 ### APP:
-https://github.com/user-attachments/assets/5c017f00-c0e0-4b17-9d63-99b3a1dee03d
+
+https://github.com/user-attachments/assets/175ca36d-09f6-4380-b2e2-68eb780a7c0f
+
+
+
 
