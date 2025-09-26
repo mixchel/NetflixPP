@@ -1,21 +1,19 @@
-# Netflix Plus
+# Netflix Plus Plus
 
 A video streaming platform offering secure content delivery and management capabilities.
 
 ## Overview
 
-Netflix Plus is a comprehensive streaming solution split across three repositories:
+Netflix Plus is a comprehensive streaming solution split across three directories:
 
-1. **User Platform** (Current Repository)  
+1. **User Platform** 
    The main streaming application where users can watch content.
 
 2. **Content Management System**  
    Administrative interface for content managers.  
-   [View CMS Repository](https://github.com/RobertGleison/content-management-system-admins)
 
 3. **Backend Server**  
    Core backend services and API.  
-   [View Server Repository](https://github.com/RobertGleison/content-management-system-server)
 
 ## System Architecture
 
