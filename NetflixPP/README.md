@@ -6,13 +6,13 @@ A video streaming platform offering secure content delivery and management capab
 
 Netflix Plus is a comprehensive streaming solution split across three directories:
 
-1. **User Platform** 
+1. **User App**  
    The main streaming application where users can watch content.
 
-2. **Content Management System**  
+2. **Admin App**  
    Administrative interface for content managers.  
 
-3. **Backend Server**  
+3. **Backend**  
    Core backend services and API.  
 
 ## System Architecture
